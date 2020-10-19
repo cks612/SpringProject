@@ -94,7 +94,7 @@ public class LoginRegisterAction extends Action {
 		String oldpwd = request.getParameter("oldpwd");
 		if(password == oldpwd) {
 			dao.updateMember(dto);
-			return null;
+			
 		}
 		
 		return null;
